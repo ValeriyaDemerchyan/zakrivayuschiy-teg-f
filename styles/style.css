@@ -41,9 +41,9 @@
   font-family: var(--accent-text);
   border: 2px solid var(--accent-color);
   background-color: var(--background-color);
-  margin: 100px auto;
+  margin: 102px auto;
   gap: 25px;
-  padding: 136px 0 25px 0;
+  padding: 135px 0 22px 0;
   }
 
   .header__logo-group {
@@ -76,7 +76,7 @@
   .theme-menu__list{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 7px;
   }
   
   .theme-menu__item {
@@ -162,7 +162,7 @@
   font-size: 18px;
   font-variation-settings: "wght" var(--title-text-weight, 700);
   line-height: 21.78px;
-  padding: 3px 24px 3px 10px;
+  padding: 5px 10px;
   }
   
   .card__image-and-themes__name {
@@ -176,7 +176,7 @@
   line-height: 14px;
   text-transform: uppercase;
   position: absolute;
-  top: 25px;
+  top: 27px;
   right: 25px;
   opacity: 0.5;
   text-shadow: -1px 0 var(--text-shadow-color, #FFFFFF), 0 1px var(--text-shadow-color, #FFFFFF), 1px 0 var(--text-shadow-color, #FFFFFF), 0 -1px var(--text-shadow-color, #FFFFFF);
@@ -201,7 +201,7 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 27px;
   }
   
   .card__content {
