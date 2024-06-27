@@ -7,7 +7,7 @@
     <title>Закрывающий тег</title>
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
-    <link rel="mobile-touch-icon" href="./images/favicon.png" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -19,11 +19,11 @@
   <body class="page">
     <header class="header">
       <div class="header__logo-group">
-        <h1 class="header__title">&lt/html&gt</h1>
-        <h2 class="header__subtitle">закрывающий тег</h2>
+        <a class="header__logo logo-link">&lt;/html&gt;</a>
+        <h1 class="header__title">закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
-        <!-— Не меняйте разметку этого списка, иначе скрипты перестанут работать —->
+        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
             <button type="button" data-theme="dark" class="theme-menu__button">
@@ -50,11 +50,11 @@
     </header>
     <main class="main">
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&lt/HTML&gt</span>
+          <span class="themes__name">&lt;/HTML&gt;</span>
           <img
             class="card__image"
             src="./images/image-car.png"
@@ -71,16 +71,15 @@
             Место для ваших воспоминаний о начале обучения.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -105,20 +104,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           1 спринт: Я — чистый лист
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&lt/HTML&gt</span>
+          <span class="themes__name">&lt;/HTML&gt;</span>
           <img
-            class="card__image image-2"
+            class="card__image filter__grayscale"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -131,16 +130,15 @@
             Место для ваших воспоминаний о начале первого спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -165,20 +163,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           1 спринт: А если не получится?
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&ltCSS&gt</span>
+          <span class="themes__name">&lt;CSS&gt;</span>
           <img
-            class="card__image image-3"
+            class="card__image filter__brightness-with-contrast"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -191,16 +189,15 @@
             Место для ваших воспоминаний об окончании первого спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -225,20 +222,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           2 спринт: Погоня за идеалом
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&ltdesigions&gt</span>
+          <span class="themes__name">&lt;desigions&gt;</span>
           <img
-            class="card__image image-4"
+            class="card__image filter__sepia"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -251,16 +248,15 @@
             Место для ваших воспоминаний о начале второго спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -285,20 +281,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           2 спринт: О тех, кто рядом
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
           <span class="themes__name">care</span>
           <img
-            class="card__image image-5"
+            class="card__image filter__invert"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -311,16 +307,15 @@
             Место для ваших воспоминаний об окончании второго спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -345,20 +340,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           3 спринт: Обходные стратегии
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&ltsupport&gt</span>
+          <span class="themes__name">&lt;support&gt;</span>
           <img
-            class="card__image image-6"
+            class="card__image filter__hue-rotate"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -371,16 +366,15 @@
             Место для ваших воспоминаний о начале третьего спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -405,20 +399,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           3 спринт: Когда опускаются руки
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&ltlifes-style: none;&gt</span>
+          <span class="themes__name">&lt;lifes-style: none;&gt;</span>
           <img
-            class="card__image image-7"
+            class="card__image filter__saturate-with-blur"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -431,16 +425,15 @@
             Место для ваших воспоминаний об окончании третьего спринта.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -465,20 +458,20 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           «Сейчас я здесь»
-        </h3>
+        </h2>
         <div class="card__image-and-themes__name">
-          <span class="themes__name">&ltexperience&gt</span>
+          <span class="themes__name">&lt;experience&gt;</span>
           <img
-            class="card__image image-8"
+            class="card__image filter__multiply"
             src="./images/image-car.png"
             alt="Разноцветный фургончик в горах"
           />
@@ -491,16 +484,15 @@
             Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
           </p>
           <div class="button__content">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
+                aria-hidden="true"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                ;
+                xmlns="http://www.w3.org/2000/svg" >
                 <g class="heart">
                   <path
                     class="contour"
@@ -525,26 +517,23 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="card__like-button button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
       <button
         type="button"
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
-        class="save__button"
+        class="save__button button"
       >
         <svg class="floppy" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text"> Сохранить на память</span>
       </button>
-    </footer>
     <dialog id="dialog-id" class="modal-window">
       <div class="modal-window__wrapper">
         <div class="modal-window__content">
@@ -554,12 +543,13 @@
           <p class="modal-window__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <form method="dialog">
-          <button class="modal-window__button">
+          <button class="modal-window__button button">
             <span class="button__text">OK</span>
           </button>
         </form>
       </div>
     </dialog>
+  </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
